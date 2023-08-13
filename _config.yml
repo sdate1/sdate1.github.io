@@ -52,18 +52,20 @@ round-avatar: true
 social-network-links:
   email: "team@locaze.co"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  linkedin: Locaze
+  instagram: locaze.co
+  twitter: @LocazeTeam
   facebook: deanattali
   github: daattali
-  twitter: @LocazeTeam
   #patreon: DeanAttali
   #youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: Locaze
+  
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: locaze.co
+  
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
