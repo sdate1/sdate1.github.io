@@ -21,10 +21,8 @@ author: Locaze
 
 navbar-links:
   About Us: "aboutme"
-  Our Team:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Contact Us: "https://deanattali.com"
+  Our Team: "aboutme"
+  Contact Us: "aboutme"
 
 ################
 # --- Logo --- #
