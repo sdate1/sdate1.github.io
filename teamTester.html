@@ -22,6 +22,45 @@ title: Locaze
   clear: both;
   display: table;
 }
+  .container {
+  position: relative;
+  max-width: 33.33%;
+}
+
+.image {
+  display: block;
+  max-width: 33.33%;
+  max-height: 70.00%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #bfd1e3;
+}
+
+.container:hover .overlay {
+  opacity: .4;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 </style>
 </head>
 <body>
@@ -30,7 +69,10 @@ title: Locaze
 <p style="font-family:Montserrat"> Our team of Johns Hopkins University undergraduate students is passionate about engineering an innovative solution to improve patient outcomes.  </p>
 <div class="row">
   <div class="column">
-    <img src="/assets/img/SagarLocaze.JPG" alt="Snow">
+    <div class="container">
+      <img src="/assets/img/SagarLocaze.JPG" alt="Snow">
+      <div class="overlay">
+        <div class="text">Hello World</div>
     <p style="font-family:Montserrat"> Founder & Chief Executive Officer </p>
     <h4> Sagar Rastogi </h4>
   </div>
