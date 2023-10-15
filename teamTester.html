@@ -23,30 +23,37 @@ title: Locaze
   backface-visibility: hidden;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+.overlay {
   position: absolute;
-  top: 100%;
-  left: 100%;
-  transform: translate(-100%, -100%);
-  -ms-transform: translate(-100%, -100%);
-  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6699CC;
 }
 
 .container:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
-  opacity: .5;
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .text {
-  background-color: #a5bacf;
   color: #375271;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .column {
   float: left;
@@ -71,7 +78,7 @@ title: Locaze
   <div class="column">
     <div class="container">
       <img src="/assets/img/SagarLocaze (1).jpg" alt="Snow">
-      <div class="middle">
+      <div class="overlay">
         <div class="text"><p style="font-family:Montserrat"> John Doe </p></div>
       </div>
       <p style="font-family:Montserrat"> Founder & CEO </p>
