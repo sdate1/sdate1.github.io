@@ -22,7 +22,8 @@ author: Locaze
 navbar-links:
   About Us: "aboutme"
   Our Team: "teamTester"
-  Contact Us: "contactTester"
+  Contact Us: "contactus"
+  #Contact Us: "contactTester"
 
 ################
 # --- Logo --- #
