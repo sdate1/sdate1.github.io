@@ -6,6 +6,6 @@ subtitle: Delivering robust concussion detection insight at the touch of your fi
 ![Locaze](/assets/img/locazeNonTranspLogo.png)
 ### Contact Information:
 For inquiries, please email us at: team@locaze.co
-[LinkedIn](https://www.linkedin.com/company/locaze/about/)
-[Instagram](https://www.instagram.com/locaze.co/)
-[Twitter](https://twitter.com/LocazeTeam)
+<br/>[LinkedIn](https://www.linkedin.com/company/locaze/about/)
+<br/>[Instagram](https://www.instagram.com/locaze.co/)
+<br/>[Twitter](https://twitter.com/LocazeTeam)
